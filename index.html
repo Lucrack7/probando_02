@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MB--2024--riBer</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="icon" type="image/jpg" href="icono.png">
+</head>
+
+<body onclick="PlayAudio()">
+	<div class="portada" id="portada">
+		<div class="header" id="contenidoPrincipal">
+				<h5 class="logotipo">SHOW DE MARIA BECERRA --- riBer ---- 22/03/24</h5>
+				<h2 class="logotipo" id="tituloResponsive">LNDA riber <br>-------- <br>22/03/24</h2>
+		</div>
+		<div id="cuenta">
+			<div class="redes-sociales">
+				<a href="https://www.instagram.com/lucrack10/" class="btn-red-social"><i class="fab fa-instagram"></i> <br> instagram</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="slider-container" id="imagenFondo">
+		<div class="slider position">
+			<!-- insercion de 22 img  -->
+			<img src="img/foto_01.png" alt="">
+			<img src="img/foto_02.png" alt="">
+
+		</div>
+	</div>
+
+	<audio id="audio1" loop>
+		<source src="audio/la-nena-de-argentina-instrumental-karaoke.mp3" type="audio/mpeg">
+	</audio>                                       
+
+	<script>
+		function PlayAudio(){
+			document.getElementById('audio1').play();
+		}
+	</script>
+
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/simplyCountdown.min.js"></script>
+	<script src="js/countdown.js"></script>
+</body>
+
+</html>
